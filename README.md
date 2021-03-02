@@ -8,24 +8,12 @@ As a React Developer, I want to navigate to pages using urls, so that I can deep
 
 Before and after for R04 React Router 
 
-<table>
-<tr>
-  <th>Before</th>
-  <th>After</th>
-</tr>
-<tr>
-  <td>
-  
-  ![Before](shot-before.png 'Before screenshot')
-  
-  </td>
-  <td>
-  
-  ![After](shot-after.png 'After screenshot')
-  
-  </td>
-</tr>
-</table>
+![Home](shot-after1.png 'Before screenshot')
+
+![Before](shot-after2.png 'Before screenshot')
+
+![Before](shot-after3.png 'Before screenshot')
+
 
 ## Development
 
