@@ -8,14 +8,29 @@ export function GoBack(props) {
     history.goBack();
   }
 
-  function onQuickLink(targetUrl) {
+  function onExtraLink(targetUrl) {
     history.push(targetUrl);
   }
 
   return (
     <div>
-      Short Links:&nbsp;
-      <a href='#' onClick={onBack}>BACK</a>
+
+      <div>
+        Short Links:&nbsp;
+        <a href='#' onClick={onBack}>Back</a>
+
+        {props.extra && (
+        <>
+          <span>|</span>
+          <a href='#' onClick={ () => onExtraLink(props.extra.link) }>
+            {props.extra.title}
+          </a>
+        </>
+        )
+        }
+      </div>
     </div>
+
+
   )
 }
